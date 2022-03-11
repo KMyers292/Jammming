@@ -1,7 +1,7 @@
 let accessToken;
 let userId;
 const clientId = '2decb6bc9b754a439592f764599f682f';
-const redirectUri = 'http://localhost:3000/';
+const redirectUri = 'https://adoring-carson-ae9085.netlify.app/';
 
 //=============================================================================================================================================================================================//
 
