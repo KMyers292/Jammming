@@ -1,0 +1,40 @@
+.playlistsItem {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+}
+
+.playlistsItem__info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 6rem;
+    cursor: pointer;
+}
+
+.playlistsItem__info:hover h3 {
+    color: #6c41ec;
+}
+
+.playlistsItem__info h3 {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.playlistsItem__info:active h3 {
+    transform: translateY(0.2rem);
+}
+
+.playlist__delete {
+    background-color: transparent;
+    border: none;
+    font-size: 4rem;
+    color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.playlist__delete:hover {
+    color: #6c41ec;
+}

@@ -1,0 +1,49 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  background-image: url('./background_photo_desktop.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.main__header {
+  padding: 1rem 0;
+  background-color: #010C3F;
+  text-align: center;
+  font-size: 3.2rem;
+  color: #fff;
+  border-bottom: 2px solid #6C41EC;
+}
+
+.header__highlight {
+  color: #6C41EC;
+}
+
+.app__grid {
+  display: grid;
+  width: 95%;
+  margin: 0 auto;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 70vh;
+  column-gap: 3rem;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+/* 800px */
+@media (max-width: 50em) {
+  .app__grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20vh 50vh;
+  }
+}
+
+/* 530px */
+@media (max-width: 33em) {
+  .app__grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh 30vh 30vh;
+
+    gap: 3rem;
+  }
+}

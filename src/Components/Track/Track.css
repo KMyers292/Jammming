@@ -1,0 +1,42 @@
+.track {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+}
+
+.track__info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 7rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.track__info:hover h3 {
+    color: #6c41ec;
+}
+
+.track__info h3 {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.track__info p {
+    font-size: 1.4rem;
+    color: rgb(219, 219, 219);
+}
+
+.track__action {
+    background-color: transparent;
+    border: none;
+    font-size: 3.5rem;
+    color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.track__action:hover {
+    color: #6c41ec;
+}
